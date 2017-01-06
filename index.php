@@ -67,7 +67,7 @@ if($twitterID && $consumerKey && $consumerSecret && $accessToken && $accessToken
                     </div>
                     <div class="tweet-content">
                         <h3 class="title" title="<?php echo $tweet->text; ?>"><?php echo $latestTweet; ?></h3>
-                        <span class="meta"><?php echo $tweetTime; ?> - <span><span class="dsq-postid" rel="8286 http://www.techandall.com/?p=8286"><?php echo $tweet->favorite_count; ?> Favorite</span></span></span>
+                        <span class="meta"><?php echo $tweetTime; ?> - <span><span class="dsq-postid"><?php echo $tweet->favorite_count; ?> Favorite</span></span></span>
                     </div>
                 </li>
                 <?php 
