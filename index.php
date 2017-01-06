@@ -16,6 +16,7 @@
       </div>
           <button type="submit" class="btn btn-default">Submit</button>
       </form>
+    </div>
      
 
 <?php
@@ -83,7 +84,7 @@ if($twitterID && $consumerKey && $consumerSecret && $accessToken && $accessToken
       echo 'Authentication failed, please try again.';
 }
 ?>
-</div>
+
 
 </body>
 </html>
