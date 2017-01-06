@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div class="col-lg-6"></div>
+    <div class="col-lg-6">
       <form action="" method="post">
         <div class="form-group">
           <label for="exampleInputEmail1">Username</label>
@@ -16,6 +16,7 @@
       </div>
           <button type="submit" class="btn btn-default">Submit</button>
       </form>
+      </div>
 
 <?php
 //Path to TwitterOAuth library
