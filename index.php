@@ -15,11 +15,12 @@
           <input type="text" class="form-control" name="twitterUsername" placeholder="Enter Username to view tweets">
       </div>
           <button type="submit" class="btn btn-default">Submit</button>
+          <br>
+    <br>
+    <br>
       </form>
     </div>
-    <br>
-    <br>
-    <br>
+
      
 
 <?php
