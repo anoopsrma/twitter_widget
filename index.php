@@ -8,7 +8,7 @@
 </head>
 
 <body>
-      <div class="col-lg-4 col-md-offset-2"></div>
+    <div class="col-lg-6"></div>
       <form action="" method="post">
         <div class="form-group">
           <label for="exampleInputEmail1">Username</label>
