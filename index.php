@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div class="col-lg-6">
+    <div class="col-lg-4 col-md-offset-4">
       <form action="" method="post">
         <div class="form-group">
           <label for="exampleInputEmail1">Username</label>
@@ -16,7 +16,7 @@
       </div>
           <button type="submit" class="btn btn-default">Submit</button>
       </form>
-      </div>
+     
 
 <?php
 //Path to TwitterOAuth library
@@ -83,6 +83,7 @@ if($twitterID && $consumerKey && $consumerSecret && $accessToken && $accessToken
       echo 'Authentication failed, please try again.';
 }
 ?>
+</div>
 
 </body>
 </html>
